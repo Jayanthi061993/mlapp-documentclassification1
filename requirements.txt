@@ -11,5 +11,4 @@ scikit-learn==1.0.2
 matplotlib==3.5.1
 nltk==3.7
 pickleshare==0.7.5
-
-
+PyPDF2==2.10.8
