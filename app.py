@@ -1,7 +1,7 @@
 import os
 import PyPDF2
 import pickle
-from flask import Flask, render_template, request, redirect, url_for, send_from_directory, session
+from flask import Flask, render_template, request
 from werkzeug.utils import secure_filename
 UPLOAD_FOLDER='./uploads/'
 
