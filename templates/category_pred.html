@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Document Classification</title>
+  <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Arimo' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Hind:300' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+
+<body>
+<h3>Document Classification - Input Document Prediction</h3>
+<p> Please upload the document </p>
+<div align="center">
+
+    <form action = "http://localhost:5000/result" method="POST" enctype="multipart/form-data">
+        <p> <input name="filename" type="file"> </p>
+        <P>  <input type = "submit" value="upload"> </P>
+    </form>
+
+</div>
+</body>
+</html>
+
